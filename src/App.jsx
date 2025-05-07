@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Navigation user={user} setUser={setUser} />
         <Routes>
-          <Route element={<Main />} path="/" />
+          <Route element={<Main user={user} />} path="/" />
           <Route
             element={<Registration setUser={setUser} />}
             path="/register"

@@ -47,7 +47,7 @@ const Registration = ({ setUser }) => {
       <div className="inputs">
         <input
           type="text"
-          placeholder="Имя пользователя"
+          placeholder="ФИО пользователя"
           value={displayName}
           onChange={(e) => setDisplayName(e.target.value)}
         />

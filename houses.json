@@ -1,62 +1,70 @@
 {
-  "houses": {
-    "astana": {
-      "h1": {
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "squareMeter": "60.43 м²",
-        "pricePerMonth": "3500 тг.",
-        "ceilingHeight": "3,1 м",
-        "nearWith": "Назарбаев университет",
-        "image": "https://riverside.kz/images/post/5838402497f6b.jpg"
-      },
-      "h2": {
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "square meter": "45.12 м²",
-        "pricePerMonth": "2000 тг.",
-        "ceilingHeight": "2,7 м",
-        "nearWith": "Евразийский национальный университет имени Л.Н. Гумилева",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/615406141.jpg?k=78828633ab3031a3593b1455fa35f942918e3c32ddea75bdfe835999d3339e57&o=&hp=1"
-      },
-      "h3": {
-        "bedrooms": "3",
-        "bathrooms": "2",
-        "square meter": "71.20 м²",
-        "pricePerMonth": "6500 тг.",
-        "ceilingHeight": "3,2 м",
-        "nearWith": "Нархоз",
-        "image": "https://a0.muscache.com/im/pictures/cee48827-c97c-40b6-84df-4cabf4a842d1.jpg"
-      }
+  "houses": [
+    {
+      "bedrooms": "2",
+      "bathrooms": "1",
+      "squareMeter": "60.43 м²",
+      "pricePerMonth": "3500 тг.",
+      "ceilingHeight": "3,1 м",
+      "city": "Astana",
+      "nearWith": "Назарбаев университет",
+      "image": "https://riverside.kz/images/post/5838402497f6b.jpg",
+      "phoneNumber": "+705 362 21 56"
     },
-    "almaty": {
-      "h1": {
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "square meter": "40.23 м²",
-        "pricePerMonth": "1800 тг.",
-        "ceilingHeight": "2,9 м",
-        "nearWith": "Казахстанско-Британский технический университет",
-        "image": "https://a0.muscache.com/im/pictures/fa516897-233d-4da6-9e3f-5149fbc04925.jpg"
-      },
-      "h2": {
-        "bedrooms": "1",
-        "bathrooms": "1",
-        "square meter": "42.85 м²",
-        "pricePerMonth": "1900 тг.",
-        "ceilingHeight": "3,0 м",
-        "nearWith": "SDU University",
-        "image": "https://cdn.esoft.digital/320240/cluster/eco_newhouses_photos/f5/9a26178c5259c127e5cfd07b7e65c0a8a0b388f5.jpeg"
-      },
-      "h3": {
-        "bedrooms": "1.5",
-        "bathrooms": "1",
-        "square meter": "50.43 м²",
-        "pricePerMonth": "2100 тг.",
-        "ceilingHeight": "3,2 м",
-        "nearWith": "Satbayev University",
-        "image": "https://www.shutterstock.com/shutterstock/photos/1182506545/display_1500/stock-photo-housing-apartment-building-almaty-kazakhstan-june-1182506545.jpg"
-      }
+    {
+      "bedrooms": "1",
+      "bathrooms": "1",
+      "squareMeter": "45.12 м²",
+      "pricePerMonth": "2000 тг.",
+      "ceilingHeight": "2,7 м",
+      "city": "Astana",
+      "nearWith": "Евразийский национальный университет имени Л.Н. Гумилева",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/615406141.jpg?k=78828633ab3031a3593b1455fa35f942918e3c32ddea75bdfe835999d3339e57&o=&hp=1",
+      "phoneNumber": "+705 362 21 56"
+    },
+    {
+      "bedrooms": "3",
+      "bathrooms": "2",
+      "squareMeter": "71.20 м²",
+      "pricePerMonth": "6500 тг.",
+      "ceilingHeight": "3,2 м",
+      "city": "Astana",
+      "nearWith": "Нархоз",
+      "image": "https://a0.muscache.com/im/pictures/cee48827-c97c-40b6-84df-4cabf4a842d1.jpg",
+      "phoneNumber": "+705 362 21 56"
+    },
+    {
+      "bedrooms": "1",
+      "bathrooms": "1",
+      "squareMeter": "40.23 м²",
+      "pricePerMonth": "1800 тг.",
+      "ceilingHeight": "2,9 м",
+      "city": "Almaty",
+      "nearWith": "Казахстанско-Британский технический университет",
+      "image": "https://a0.muscache.com/im/pictures/fa516897-233d-4da6-9e3f-5149fbc04925.jpg",
+      "phoneNumber": "+707 315 21 56"
+    },
+    {
+      "bedrooms": "1",
+      "bathrooms": "1",
+      "squareMeter": "42.85 м²",
+      "pricePerMonth": "1900 тг.",
+      "ceilingHeight": "3,0 м",
+      "city": "Almaty",
+      "nearWith": "SDU University",
+      "image": "https://cdn.esoft.digital/320240/cluster/eco_newhouses_photos/f5/9a26178c5259c127e5cfd07b7e65c0a8a0b388f5.jpeg",
+      "phoneNumber": "+707 315 21 56"
+    },
+    {
+      "bedrooms": "1.5",
+      "bathrooms": "1",
+      "squareMeter": "50.43 м²",
+      "pricePerMonth": "2100 тг.",
+      "ceilingHeight": "3,2 м",
+      "city": "Almaty",
+      "nearWith": "Satbayev University",
+      "image": "https://www.shutterstock.com/shutterstock/photos/1182506545/display_1500/stock-photo-housing-apartment-building-almaty-kazakhstan-june-1182506545.jpg",
+      "phoneNumber": "+707 315 21 56"
     }
-  }
+  ]
 }

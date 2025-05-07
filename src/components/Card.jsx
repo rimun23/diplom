@@ -1,12 +1,16 @@
-function Card(house) {
+function Card({ house }) {
   return (
-    <div>
-      <img src={house.image} alt="house" />
+    <div className="card">
+      <img src={house.image} alt="house" className="houseImg" />
       <ul>
-        <li>{house.bedrooms}</li>
-        <li>{house.squareMeter}</li>
-        <li>{house.pricePerMonth}</li>
-        <li>{house.nearWith}</li>
+        <li>кол-во комнат: {house.bedrooms}</li>
+        <li>кол-во кв. м.: {house.squareMeter}</li>
+        <li>цена за месяц: {house.pricePerMonth}</li>
+        <li>ближайший университет: {house.nearWith}</li>
+        <li>
+          Желаете арендовать? Позвоните по данному номеру: <br />{" "}
+          {house.phoneNumber}
+        </li>
       </ul>
     </div>
   );

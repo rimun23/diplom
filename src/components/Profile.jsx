@@ -1,9 +1,12 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { db } from "../firebaseConfig";
 import { doc, getDoc } from "firebase/firestore";
 import Loading from "./Loading";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 function Profile({ user }) {
   const [info, setInfo] = useState(null);
+  const profile = useRef();
   useEffect(() => {
     const getDataFire = async () => {
       const docRef = doc(db, "users", `${user.uid}`);
@@ -16,10 +19,38 @@ function Profile({ user }) {
       }
     };
     getDataFire();
+    // eslint-disable-next-line
   }, []);
-
+  gsap.registerPlugin(useGSAP);
+  useGSAP(() => {
+    gsap.to(profile, {
+      duration: 1,
+      transformOrigin: "0% 50% -50",
+      y: -500,
+      ease: "bounce.out",
+      stagger: 0.02,
+    });
+  }, [info]);
   return (
-    <div className="fullFullProfile">
+    <div className="fullFullProfile" ref={profile}>
+      <div className="cloud" id="cloud1">
+        <div className="in_cloud">
+          <div className="ball b1"></div>
+          <div className="ball b2"></div>
+          <div className="ball b3"></div>
+          <div className="ball b4"></div>
+          <div className="ball b5"></div>
+        </div>
+      </div>
+      <div className="cloud" id="cloud2">
+        <div className="in_cloud">
+          <div className="ball b1"></div>
+          <div className="ball b2"></div>
+          <div className="ball b3"></div>
+          <div className="ball b4"></div>
+          <div className="ball b5"></div>
+        </div>
+      </div>
       {!info ? (
         <Loading />
       ) : (
